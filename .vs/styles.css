@@ -1,0 +1,23 @@
+#game-board {
+    width: 400px;
+    height: 400px;
+    background-color: #e6f7df;
+    position: relative;
+  }
+
+.bug {
+    width: 40px;
+    height: 40px;
+    background-image: url('bug.png');
+    background-size: cover;
+    position: absolute;
+    cursor: pointer;
+}
+#reset-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(55, 44, 151);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
